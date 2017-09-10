@@ -1,51 +1,30 @@
 package com.yoshi.merchants.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 
 import com.yoshi.merchants.R;
 
-public class MainActivity extends AppCompatActivity {
+import static com.yoshi.merchants.R.layout.content_register;
+
+public class MessageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_message);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        AppCompatButton logOutAppCompatButton= (AppCompatButton) findViewById(R.id.registerAppCompatButton);
-        logOutAppCompatButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setContentView(R.layout.content_register);
-                /*
-                Snackbar.make(view, "log out", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-                */
-            }
-        });
-
-        AppCompatButton logInAppCompatButton= (AppCompatButton) findViewById(R.id.logInAppCompatButton);
-        logInAppCompatButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                setContentView(R.layout.activity_login);
-                /*
-                Snackbar.make(view, "log in", Snackbar.LENGTH_LONG)
-                                        .setAction("Action", null).show();
-
-                 */
-            }
-        });
 
     }
 

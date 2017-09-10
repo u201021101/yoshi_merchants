@@ -7,6 +7,7 @@
     <string name="title_activity_register_field">Registro de Campos</string>
     <string name="title_activity_register_camp">Registro de Locales</string>
     <string name="title_activity_info_merchant">Información del Comercio</string>
+    <!--- Login Activity -->
     <string name="prompt_email">Correo Electronico</string>
     <string name="prompt_password">Contraseña</string>
     <string name="action_sign_in">Ingresar</string>
@@ -14,9 +15,21 @@
     <string name="error_invalid_email">Correo electrónico incorrecto</string>
     <string name="error_invalid_password">La longitud de la contraseña es muy corta</string>
     <string name="error_incorrect_password">La contraseña es incorrecta.</string>
-    <string name="error_field_required">This field is required</string>
+    <string name="error_field_required">Los campos son requeridos.</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <!--- Register Activity -->
     <string name="title_activity_register">Registro del Comercio</string>
+    <string name="title_input_tradename_merchant">Nombre Comercial</string>
+    <string name="title_input_name_merchant">Razón Social</string>
+    <string name="title_input_ruc_merchant">RUC</string>
+    <string name="title_info_contact">Información del Contacto</string>
+    <string name="title_info_merchant">Información de la Empresa</string>
+    <string name="title_input_name_contact">Nombres y Apellidos</string>
+    <string name="title_input_phone_contact">Teléfono</string>
+    <string name="title_input_email_contact">Correo Electrónico</string>
+    <string name="title_button_register_merchant">Registrarme</string>
+    <string name="title_activity_message">MessageActivity</string>
+
 </resources>
