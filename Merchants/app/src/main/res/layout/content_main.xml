@@ -14,7 +14,7 @@
         android:id="@+id/descriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Unete a la red más grande de campos deportivos del país"
+        android:text="Únete a la red más grande de campos deportivos del país."
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,10 +24,10 @@
         />
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/logOutAppCompatButton"
+        android:id="@+id/logInAppCompatButton"
         android:layout_width="196dp"
         android:layout_height="wrap_content"
-        android:text="Registar mi empresa"
+        android:text="Ingresar a mi empresa"
         app:layout_constraintTop_toBottomOf="@+id/descriptionTextView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -35,14 +35,16 @@
         />
 
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/logInAppCompatButton"
+        android:id="@+id/registerAppCompatButton"
         android:layout_width="196dp"
         android:layout_height="wrap_content"
-        android:text="Ingresar a mi empresa"
-        app:layout_constraintTop_toBottomOf="@+id/logOutAppCompatButton"
+        android:text="Registar mi empresa"
+        app:layout_constraintTop_toBottomOf="@+id/logInAppCompatButton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_margin="@dimen/big_margin"
         />
+
+
 
 </android.support.constraint.ConstraintLayout>

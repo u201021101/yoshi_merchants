@@ -9,7 +9,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import com.yoshi.merchants.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,12 +20,15 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        AppCompatButton logOutAppCompatButton= (AppCompatButton) findViewById(R.id.logOutAppCompatButton);
+        AppCompatButton logOutAppCompatButton= (AppCompatButton) findViewById(R.id.registerAppCompatButton);
         logOutAppCompatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                setContentView(R.layout.content_register);
+                /*
                 Snackbar.make(view, "log out", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                */
             }
         });
 
@@ -34,8 +36,12 @@ public class MainActivity extends AppCompatActivity {
         logInAppCompatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                setContentView(R.layout.activity_login);
+                /*
                 Snackbar.make(view, "log in", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                                        .setAction("Action", null).show();
+
+                 */
             }
         });
     }
