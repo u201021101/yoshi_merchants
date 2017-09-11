@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp"
+    android:id="@+id/locationCardView">
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surquillo"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:id="@+id/quantitySportFieldTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6 Canchas"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/editImageButton"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:src="@mipmap/edit_icon"
+                />
+
+            <ImageButton
+                android:id="@+id/deleteImageButton"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:src="@mipmap/delete_icon"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

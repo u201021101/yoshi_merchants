@@ -1,5 +1,6 @@
 package com.yoshi.merchants.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
         logOutAppCompatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.content_register);
+                //setContentView(R.layout.content_register);
+                view.getContext().startActivity( new Intent(view.getContext(), LocationActivity.class));
                 /*
                 Snackbar.make(view, "log out", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
