@@ -13,7 +13,7 @@
         android:id="@+id/descriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gracias por registrarte. En breves minutos recibiras un correo electrónico con las instrucciones para activar tu cuenta."
+        android:text="Gracias por registrarte!!! \r\n\r\nEn breves minutos recibiras un correo electrónico con las instrucciones para activar tu cuenta."
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"

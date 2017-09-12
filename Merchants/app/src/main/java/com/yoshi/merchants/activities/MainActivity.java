@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
         logInAppCompatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.activity_login);
+                //setContentView(R.layout.activity_login);
+                view.getContext().startActivity( new Intent(view.getContext(), LoginActivity.class));
                 /*
                 Snackbar.make(view, "log in", Snackbar.LENGTH_LONG)
                                         .setAction("Action", null).show();

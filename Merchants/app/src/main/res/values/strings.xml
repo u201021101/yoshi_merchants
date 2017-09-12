@@ -30,8 +30,9 @@
     <string name="title_input_phone_contact">Teléfono</string>
     <string name="title_input_email_contact">Correo Electrónico</string>
     <string name="title_button_register_merchant">Registrarme</string>
-    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_message">Resultado de Registro</string>
     <string name="title_activity_location">Location</string>
     <string name="title_activity_register_location">Register Location</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
 
 </resources>
