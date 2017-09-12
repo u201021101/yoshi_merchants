@@ -24,8 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent nextimage = new Intent(RegisterActivity.this, MessageActivity.class);
-                startActivity(nextimage);
+                view.getContext().startActivity( new Intent(view.getContext(), MessageActivity.class));
             }
         });
     }
