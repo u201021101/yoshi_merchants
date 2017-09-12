@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.yoshi.merchants.activities.NavigationActivity"
-    tools:showIn="@layout/activity_navigation">
+    tools:context="com.yoshi.merchants.activities.NavigationActivity">
 
     <FrameLayout
         android:id="@+id/content"

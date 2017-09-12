@@ -64,14 +64,16 @@ public class NavigationActivity extends AppCompatActivity {
 
     private Fragment getFragmentFor(int id) {
         switch (id) {
-            case R.id.navigation_map:
+             default:
+            //case R.id.navigation_map:
                 return new MapFragment();
-            case R.id.navigation_date:
-                return new DateFragment();
-            case R.id.navigation_historial:
-                return new DateFragment();
+            //case R.id.navigation_date:
+            //    return new DateFragment();
+            //case R.id.navigation_historial:
+            //    return new DateFragment();
         }
 
-        return null;
+        //return null;
+
     }
 }
