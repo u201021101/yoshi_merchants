@@ -53,6 +53,24 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.yoshi.merchants.activities.LocationActivity" />
         </activity>
+        <activity
+            android:name=".activities.SportFieldActivity"
+            android:label="@string/title_activity_sport_field"
+            android:parentActivityName=".activities.RegisterLocationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yoshi.merchants.activities.RegisterLocationActivity" />
+        </activity>
+        <activity
+            android:name=".activities.RegisterSportFieldActivity"
+            android:label="@string/title_activity_register_sport_field"
+            android:parentActivityName=".activities.SportFieldActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yoshi.merchants.activities.SportFieldActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -33,5 +33,7 @@
     <string name="title_activity_message">MessageActivity</string>
     <string name="title_activity_location">Location</string>
     <string name="title_activity_register_location">Register Location</string>
+    <string name="title_activity_sport_field">Sport Field</string>
+    <string name="title_activity_register_sport_field">Register SportField</string>
 
 </resources>

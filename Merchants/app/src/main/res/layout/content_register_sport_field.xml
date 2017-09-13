@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.yoshi.merchants.activities.RegisterSportFieldActivity"
+    tools:showIn="@layout/activity_register_sport_field"
+    android:layout_margin="@dimen/default_margin"
+    >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:text="Registrar campo deportivo"
+        />
+
+    <ImageView
+        android:id="@+id/pictureImageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/default_margin"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/descriptionTextInputLayout"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/pictureImageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/default_margin"
+        >
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Descripción"
+            android:maxLines="6"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <SeekBar
+        android:id="@+id/quantityPlayerSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextInputLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:min="8"
+        android:max="24"
+        android:layout_margin="@dimen/default_margin"
+        />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar campo deportivo"
+        app:layout_constraintTop_toBottomOf="@+id/quantityPlayerSeekBar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/default_margin"
+        />
+
+</android.support.constraint.ConstraintLayout>
