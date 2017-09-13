@@ -25,6 +25,13 @@ public class MessageActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        Button iniciarSessionButton = (Button) findViewById(R.id.registerAppCompatButton);
+        iniciarSessionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                view.getContext().startActivity( new Intent(view.getContext(), LoginActivity.class));
+            }
+        });
 
     }
 

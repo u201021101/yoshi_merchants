@@ -9,7 +9,6 @@
     tools:showIn="@layout/activity_register_location"
     android:layout_margin="@dimen/default_margin"
     >
-
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
